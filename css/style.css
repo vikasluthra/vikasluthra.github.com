@@ -77,48 +77,48 @@ General CSS
 	z-index: 1;
 }
 p {
-	font-family: Verdana, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.6em;
-	color: #848484;
+	color: #191919;
 	font-size: 10pt;
 }
 h1 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family:  'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
-	font-size: 22pt;
+	font-size: 28pt;
 }
 h2 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 18pt;
 }
 h3 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family:  'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
-	font-size: 16pt;
+	font-size: 22pt;
 }
 h4 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 14pt;
 }
 h5 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family:'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
 	font-size: 12pt;
 }
 h6 {
-	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	font-family:'Raleway', sans-serif;
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
