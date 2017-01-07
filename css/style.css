@@ -71,7 +71,62 @@ General CSS
 ******************************************************************/
 									
 #content {
-	width: 720px;
+	width: 800px;
+	padding-top: 130px;
+	margin-left: 240px;
+	z-index: 1;
+}
+p {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #191919;
+	font-size: 10pt;
+}
+h1 {
+	font-family:  'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 28pt;
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 18pt;
+}
+h3 {
+	font-family:  'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 22pt;
+}
+h4 {
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h5 {
+	font-family:'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 12pt;
+}
+h6 {
+	font-family:'Raleway', sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 10pt;
+}
+
+#contenthome {
+	width:720px;
 	padding-top: 130px;
 	margin-left: 240px;
 	z-index: 1;
@@ -167,6 +222,16 @@ COLUMNS and FEATURES
 }
 .clear {
 	clear: both;
+}
+
+img
+{
+	max-height: 100%;
+	max-width:100%;
+}
+.landscape {
+	width: 800px;
+	height: 60px;
 }
 .dropcap {
 	font-family: Verdana, Arial, sans-serif;
@@ -345,16 +410,25 @@ Header & Menu CSS
 	display: inline;
 }
 #menu-wrapper {
+
+	position: fixed;
+	background-color: #FFF;
 	height: 100%;
 	padding-top: 120px;
+	padding-right:20px;
 	float: left;
 	width: 140px;
+	z-index: 100;
 }
 #main-menu {
+	
+
 	position: fixed;
 	padding-top: 60px;
 	padding-left: 40px;
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	
+
 }
 #main-menu a {
 	color: #707070;
