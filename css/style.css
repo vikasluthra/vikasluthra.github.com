@@ -94,7 +94,7 @@ h2 {
 	line-height: 1.6em;
 	color: #454544;
 	text-decoration: none;
-	font-size: 18pt;
+	font-size: 20pt;
 }
 h3 {
 	font-family:  'Raleway', sans-serif;
@@ -387,9 +387,13 @@ Header & Menu CSS
 	display: block;
 	height: 20px;
 }
-#header-text h6 {
-	font-size: 7pt;
-	color: #d8d8d8;
+#header-text h5{
+	font-size: 10pt;
+	color: #454544;
+}
+#sli-text h4{
+	font-size: 16pt;
+	color: #357DEF;
 }
 #header-text a {
 	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
