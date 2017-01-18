@@ -36,7 +36,7 @@
     <div id="logo"><a href="index.html"><img src="img/logo.png" width="100" height="80" alt="logo" /></a></div>
     <div id="header-text">
       <h4>Works and Projects</h4>
-      <h6><a href="index.html">Portfolio</a> → Immersive Virtual Reality</h6>
+      <h6><a href="index.html">Portfolio</a> → ARCHI</h6>
     </div>
   </div>
 </div>
@@ -61,66 +61,60 @@
 <!--END of menu-->
 <!--This is the START of the content-->
 <div id="content">
-  <!--This is the START of the NIVO slider-->
-  <div class="slider-wrapper theme-effe">
-    <div id="slider" class="nivoSlider">
-	<img src="img/projects/immersive/cover.png" alt="" title="#img3" />
-	<img src="img/projects/immersive/cover1.png" alt="" title="#img4" />
-	<img src="img/projects/immersive/proto.png" alt="" title="#img5" />
-	<img src="img/projects/immersive/literature.png" alt="" title="#img1" />
-	<img src="img/projects/immersive/user.png" alt="" title="#img2" />
-	<img src="img/projects/immersive/user1.png" alt="" title="#img2" />
-	
-	
-	</div>
-    <div id="slider-shadow"></div>
-  </div>
-  <!--END of NIVO Slider-->
-  <!--This is the START of the project-->
+  <img src="img/projects/ARCHI/cover1.png"/>
+  
+ 
   <div class="project">
     <div id="description">
-      <h3>Immersive Virtual Reality In Learning</h3>
-	  <h6>A tool to aid in learning and understanding of projection,section and intersection of solids</br>
-	  Project Guide:Prof.(Dr) Pradeep Yammiyawar</br>
-	  Final Year Design Project-Phase 1</br>
+      <h3>ARCHI:Virtual Reality based Learning and Instructional AID</h3>
 	  
-      Duration:Aug 2013-Nov 2013</br>
+	  <h6>Project Guide:Prof.(Dr) Pradeep Yammiyawar</br>
+	  Final Year Project</br>
 	  
-      Keywords:Learning,3D visualization,Architecture</br></br></h6>
-	  <h5>About the Project</h5>
-      <p>Architecture and design students, and students in certain technical fields need to have good
-spatial abilities. These students are expected to be good at imagining spaces and objects in 3D and
-manipulating them in their minds. To initiate students into 3D visualization, they are taught many related
-courses, depending on their domain. However, all the departments, be it architecture, design or an engineering
-fields, founds it’s advanced 3D graphics course on that of engineering drawing. In this course,
-which is usually introduced in the very semester of undergraduate studies, students are taught to deal
-with points, lines, solids, surfaces, etc. Since this is a sudden departure from their usual visualization
-techniques, many topics in this course are perceived to be difficult, by students who are to learn as well as
-instructors who are to teach the subject. In our project, we want to engage students in learning specific
-topics from the course of engineering drawing by giving them a platform which allows them to manipulate
-geometric solids. The platform is borrows from immersive virtual reality and gives students the opportunity
-to visualize and explore projections and intersections of solids in a dynamic way..</p></br>
+      Duration:Aug 2013-Apr 2014</br>
 	  
-	  <h5>Objective</h5></br>
+      Contribution:User Research, Product Development, Usability Testing, Controlled Experiment</h6></br></br>
+	  <h5>Overview</h5></br>
+      <p>Freshman year students in architecture programs have to study the fundamental course of “engineering drawing” or “architectural graphics”. The goal of the course is to enhance students’ spatial thinking. However, most students find the learning curve to be steep, since they are primarily used to 2D mental visualizations.</p></br>
+	  
+	  <h5>Why Archi?</h5></br>
 	 
-      <p>Through this project our aim is to develop a platform that aids in the instruction of engineering
-drawing for students of architecture and allied fields of design and engineering. Based in immersive
-virtual reality, the platform allows students to view common geometric objects and complicated solids in
-3D. Additionally, they can manipulate these objects to view different projections, intersections, sections
-and surfaces. This would allow students a more hands-on and practical experience with 3D visualization
-and drawing, and would let them learn the subject constructively.</p></br>
+      <p>Archi is an immersive VR platform that aids the aforementioned course of “engineering drawing”. It scaffolds students’ learning as they are introduced to topics of visualization of objects and its projections in 3D space. Students can freely manipulate objects’ orientation in 3D space, and watch changes in projections in real time</p></br>
 		
-	  <h5>Overview of the project</h5></br></br>
-      <iframe src="http://www.slideshare.net/slideshow/embed_code/28449156" width="720" height="486" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> 
-  </br></br></br>
-       <h5>Initial Prototype Video</h5></br></br>
+	  <h5>Project Journey</h5></br>
+
+	  <h6><b>1 Contextual Inquiry</b></br>
+       
+      <p>We used contextual inquiry as our primary research method. Our core users were first year undergraduate architecture students. We observed classes and discussion sessions in progress. This helped us capture the experiences and struggles of students with the course. We also conducted qualitative interviews with instructors and tutors. In parallel, we conducted literature review on learning and cognition models. We analyzed the collected qualitative data by means of an affinity wall.</p></br></br>
+      <img src="img/projects/ARCHI/user.png"/></br></br>
+      <img src="img/projects/ARCHI/user1.png"/></br></br>
+
+      <h6><b>2.Insights</b></h6></br>
+      <p>Our key insight was that students’ initiation into architectural graphics is not smooth.In context of Indian architectural curriculum, until high school none of the subjects require spatial thinking. Come first semester of college, and students are expected to visualize and orient objects mentally without any prior experience. Thus, a platform which can scaffold their transition into 3D thinking would make the course fundamentals easier to grasp.</p></br></br>
+        
+      <h6><b>3.Recommended Solution</b></h6></br>
+      <p>From our insights we realized the proposed solution should :
+        1. Aid in 3D visualization without losing the established rules of the course.
+        2. Link to coordinate geometry since students are comfortable with "math of 3D space".
+        3. Enable students to "learn by doing" for best learning.
+        4. Decrease the conceptual distance between theory and projections.
+        The technology of immersive VR allows users to perceive and interact in manners similar to real world. Given the needs of the solution, it was an apt choice for the platform. For our prototype, we used Vizard, a virtual reality toolkit in Python.</p></br></br>          
+
+      <h6><b>4.Prototype and Pilot Testing</b></h6></br>
+      <p>We simulated 3D objects students commonly encounter in the course - pyramids, cubes, etc. Projections of the simulations are mapped on vertical, horizontal and profile planes. The simulations could be manipulated freely along the three axes of rotations. Changes to the simulations and their projections were updated simultaneously. The conventions of the course were followed in the platform. We pilot tested the initial prototype to identify key usability issues, and fix them before our controlled experiment with target users.</p></br></br>
+       <img src="img/projects/ARCHI/proto.png" alt="" title="#img5"/></br></br>
+       <iframe width="720" height="480" src="https://www.youtube.com/embed/xVvFYJj7d_o" frameborder="0" allowfullscreen></iframe></br></br></br>
+
+      <h6><b>5.Controlled Experiement</b></h6></br>
+      <p>The experiment was conducted to gauge the platform's effectiveness as a learning tool. The experiment was conducted with a total of 44 students. Results were significant and in favor of the platform. We also used technology acceptance model or TAM to model attitudes of users towards using the technology. It showed high inclination towards using the tool. You can read more here:
+       1. Pandey, M., Luthra, V., Yammiyawar, P. G., and Yammiyawar, P. (2014). Role of immersive VR in fostering creativity among architecture students. In 3rd International Conference of Design Creativity.
+       2. Pandey, M., Luthra, V., Yammiyawar, P. G., and Yammiyawar, A. P. (2014). Virtual Reality Based Learning Aid to Understand Projection and Section of Solids in Architectural Graphics. In HCI International 2014-Posters’ Extended Abstracts (pp. 625-630). Springer International Publishing.</p></br></br>
+      <img src="img/projects/ARCHI/expt.jpg" alt="" title="#img5" /></br></br>
+      
+	</div>
 	   
-	   <iframe width="640" height="360" src="//www.youtube.com/embed/xVvFYJj7d_o" frameborder="0" allowfullscreen></iframe>
   </div>
-  <!--END of project-->
-  <!--This is the START of the gallery-->
-    
-   <div class="spacer"></div>
+  
       
 </div>
 <!--END of content-->
