@@ -132,7 +132,7 @@ b {
 
  
 #contenthome {
-	width:720px;
+	width: 900px;
 	padding-top: 130px;
 	margin-left: 240px;
 	z-index: 1;
@@ -713,11 +713,11 @@ Portfolio CSS
 
 #filter {
 	display: block;
-	height: 20px;
+	height: 30px;
 	margin-left: 20px;
 	position: relative;
-	text-align: center;
-	width: 700px;
+	text-align: left;
+	width:720px;
 }
 #filter:before, #filter:after {
 	height: 43px;
@@ -751,12 +751,12 @@ Portfolio CSS
 	color: #121212;
 }
 #stage {
-	width: 720px;
+	width: 1100px;
 }
 #container {
 	display:block;
 	overflow:hidden;
-	width: 720px;
+	width: 1100px;
 	margin:0 auto;
 }
 #container li {
@@ -804,7 +804,7 @@ This CSS is for the project page
 #description {
 	padding-bottom: 20px;
 	float: left;
-	width: 720px;
+	width: px;
 }
 #work {
 	margin-top: 15px;
